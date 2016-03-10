@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Scott's Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Scott Heffner</h1>
-        <p>Web Developer</p>
+      <header class="row">
+        <img class="logo" src="images/web.svg" alt="web">
+        <div class="bio">
+          <h1>Scott Heffner</h1>
+          <p class="text-right">Web Developer</p>
+        </div>
       </header>
       <main>
         <h1>Featured Work</h1>
-        <section>
+        <section class="col-md-4 col-sm-3">
           <h1><a href="https://github.com/sctthffnr/frontend-frogger">Frogger</a></h1>
         </section>
-        <section>
+        <section class="col-md-4 col-sm-3">
           <h1><a href="https://github.com/sctthffnr/frontend-optimized.git">Optimized Web Site</a></h1>
         </section>
-        <section>
+        <section class="col-md-4 col-sm-3">
           <h1><a href="https://github.com/sctthffnr/frontend-neighborhood-map.git">Neighborhood Map</a></h1>
         </section>
-        <section>
+        <section class="col-md-4 col-sm-3">
           <h1><a href="https://github.com/sctthffnr/frontend-feed-reader">Feed Reader</a></h1>
         </section>
       </main>

@@ -1,0 +1,25 @@
+header {
+  border-bottom: 3px solid #bcbbbb;
+}
+
+.logo {
+  max-width: 75px;
+  max-height: 75px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.bio {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.bio h1 {
+  font-size: 32px;
+}
+
+.bio p {
+  font-size: 24px;
+}
