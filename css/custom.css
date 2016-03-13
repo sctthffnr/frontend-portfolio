@@ -27,8 +27,9 @@ main {
 
 main h1 {
   font-size: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 8px;
   color: #2a324b;
+  text-align: left;
 }
 
 section {
@@ -52,4 +53,23 @@ a:visited {
 
 a:hover {
   color: #f7c59f;
+}
+
+@media screen and (max-width: 380px) {
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  main h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  main h1 {
+    text-align: center;
+  }
+
 }
