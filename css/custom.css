@@ -1,5 +1,4 @@
 body {
-  font-family: Garamond, sans-serif;
   color: #2b5386;
 }
 
@@ -7,9 +6,17 @@ header {
   border-bottom: 3px solid #c7ccdb;
 }
 
+header p {
+  font-size: 24px;
+}
+
 .logo {
   width: 64px;
   height: 64px;
+  margin-top: 20px;
+}
+
+.main-image {
   margin-top: 20px;
 }
 
