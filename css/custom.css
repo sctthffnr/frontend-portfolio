@@ -23,7 +23,11 @@ main h1 {
   color: #2a324b;
 }
 
-section h1 {
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
   font-size: 28px;
 }
 
